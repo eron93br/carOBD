@@ -15,9 +15,9 @@ Step 2: Software required
 Before proceeding, run:
 `sudo apt-get update`
 
-sudo apt-get upgrade
+`sudo apt-get upgrade`
 
-sudo apt-get autoremove
+`sudo apt-get autoremove`
 
-sudo reboot
+`sudo reboot`
 
