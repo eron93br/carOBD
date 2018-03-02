@@ -31,7 +31,7 @@ Install Python Serial package, BLE package and some Python 2.8 tools:
 
 ```
 sudo apt-get install python-serial
-sudo apt-get install bluetooth bluez-utils blueman
+sudo apt-get install bluetooth bluez blueman
 sudo apt-get install python-wxgtk2.8 python-wxtools wx2.8-i18n libwxgtk2.8-dev
 ```
 
