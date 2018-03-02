@@ -35,7 +35,7 @@ sudo apt-get install bluetooth bluez blueman
 sudo apt-get install python-wxgtk2.8 python-wxtools wx2.8-i18n libwxgtk2.8-dev
 ```
 
-Install Python OBD and Screen:
+Install [Python OBD](https://github.com/brendan-w/python-OBD) and Screen:
 ```
 sudo pip install obd
 sudo apt-get install screen
