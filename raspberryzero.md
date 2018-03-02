@@ -33,6 +33,8 @@ Install Python Serial package, BLE package and some Python 2.8 tools:
 sudo apt-get install python-serial
 sudo apt-get install bluetooth bluez blueman
 sudo apt-get install python-wxgtk2.8 python-wxtools wx2.8-i18n libwxgtk2.8-dev
+sudo apt-get install git-core
+sudo reboot
 ```
 
 Install [Python OBD](https://github.com/brendan-w/python-OBD) and Screen:
@@ -41,7 +43,8 @@ sudo pip install obd
 sudo apt-get install screen
 ```
 
-4) Next, download the OBD-Pi Software direct from GitHub
+4) Next, download the OBD-Pi Software direct from GitHub (https://github.com/Pbartek/pyobd-pi.git)
+Or using the command:
 ```
 cd ~
 git clone https://github.com/Pbartek/pyobd-pi.git
@@ -50,3 +53,5 @@ git clone https://github.com/Pbartek/pyobd-pi.git
 5) Some different implementations on GitHub projects are ready to use:
 
 [pi-bluetooth-obd](https://github.com/grimlockrocks/pi-bluetooth-obd)
+
+
