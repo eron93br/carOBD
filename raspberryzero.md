@@ -13,7 +13,6 @@ Step 1: Hardware required
 Step 2: Software required
 
 Before proceeding, run:
-
 sudo apt-get update
 
 sudo apt-get upgrade
