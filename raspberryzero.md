@@ -2,7 +2,7 @@
 
 Describe tutorials to create a OBD Readaer based on Raspberry Pi Zero W.
 
-Step 1: Hardware required
+### Step 1: Hardware required
 
 - Raspberry Pi Zero W
 - USB Cable with 2.0 A power supply + Car Supply
@@ -10,7 +10,7 @@ Step 1: Hardware required
 - Keyboard and mouse USB
 
 
-Step 2: Software required
+### Step 2: Software required
 
 1) Before proceeding, run:
 ```
