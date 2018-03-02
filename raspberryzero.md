@@ -46,3 +46,7 @@ sudo apt-get install screen
 cd ~
 git clone https://github.com/Pbartek/pyobd-pi.git
 ```
+
+5) Some different implementations on GitHub projects are ready to use:
+
+[pi-bluetooth-obd](https://github.com/grimlockrocks/pi-bluetooth-obd)
