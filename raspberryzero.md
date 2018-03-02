@@ -12,7 +12,8 @@ Step 1: Hardware required
 
 Step 2: Software required
 
-Before proceeding, run:
+1) Before proceeding, run:
+
 `sudo apt-get update`
 
 `sudo apt-get upgrade`
@@ -20,4 +21,17 @@ Before proceeding, run:
 `sudo apt-get autoremove`
 
 `sudo reboot`
+
+2) Install these components using the command:
+Install Python Serial package
+
+`sudo apt-get install python-serial`
+
+Install BLE package to pair with ELM327
+
+`sudo apt-get install bluetooth bluez-utils blueman`
+
+Upgrade some Python 2.8 tools
+
+`sudo apt-get install python-wxgtk2.8 python-wxtools wx2.8-i18n libwxgtk2.8-dev`
 
