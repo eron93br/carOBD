@@ -1,0 +1,50 @@
+
+
+%%%% Toyota Ethios - PIDs available - 2014 %%%%%%%%%%%%%%%%%
+ 
+Calculated engine load
+Engine coolant temperature
+
+Short term fuel trim—Bank 1
+Long term fuel trim—Bank 1
+
+Intake manifold absolute pressure
+
+Engine RPM
+Vehicle speed
+Timing advance
+Intake air temperature
+Throttle position
+
+Oxygen sensors present (in 2 banks)
+Oxygen Sensor 1 A: Voltage B: Short term fuel trim
+Oxygen Sensor 2 A: Voltage B: Short term fuel trim
+
+OBD standards this vehicle conforms to
+
+Run time since engine start
+
+Distance traveled with malfunction indicator lamp (MIL) on
+Fuel Tank Level Input
+Warm-ups since codes cleared
+Distance traveled since codes cleared
+Absolute Barometric Pressure
+Catalyst Temperature: Bank 1, Sensor 1
+Catalyst Temperature: Bank 1, Sensor 2
+
+Control module voltage
+Fuel–Air commanded equivalence ratio
+
+
+Relative throttle position
+Absolute throttle position B
+
+
+Accelerator pedal position D
+Accelerator pedal position E
+
+
+Commanded throttle actuator
+
+Time run with MIL on
+Time since trouble codes cleared
