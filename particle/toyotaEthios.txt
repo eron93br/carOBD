@@ -1,6 +1,5 @@
 
-
-# Toyota Ethios - PIDs available - 2014
+Toyota Ethios - PIDs available - 2014
  
 Calculated engine load
 Engine coolant temperature
@@ -38,13 +37,14 @@ Fuel–Air commanded equivalence ratio
 
 Relative throttle position
 Absolute throttle position B
-
-
 Accelerator pedal position D
 Accelerator pedal position E
 
 
 Commanded throttle actuator
-
 Time run with MIL on
 Time since trouble codes cleared
+
+
+
+
