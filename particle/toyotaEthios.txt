@@ -45,6 +45,70 @@ Commanded throttle actuator
 Time run with MIL on
 Time since trouble codes cleared
 
+----------------------------------------------------------------------------------------------------------------------------------
+
+// Calculated engine load
+float ENGINE_LOAD;
+// Engine coolant temperature
+float COOLANT_TEMPERATURE;
+// Short term fuel trim—Bank 1
+float SHORT_TERM_FUEL_TRIM_BANK_1;
+// Long term fuel trim—Bank 1
+float LONG_TERM_FUEL_TRIM_BANK_1;
+// Intake manifold absolute pressure
+float INTAKE_MANIFOLD_PRESSURE;
+// Engine RPM
+float ENGINE_RPM;
+// Vehicle speed
+float VEHICLE_SPEED;
+// Timing advance
+float TIMING_ADVANCE;
+// Intake air temperature
+float INTAKE_AIR_TEMPERATURE;
+// Throttle position
+float THROTTLE;
+// Oxygen sensors present (in 2 banks)
+
+// Oxygen Sensor 1 A: Voltage B: Short term fuel trim
+
+// Oxygen Sensor 2 A: Voltage B: Short term fuel trim
+
+// OBD standards this vehicle conforms to
+float OBD_STANDARDS;
+// Run time since engine start
+float ENGINE_RUN_TIME;
+// Distance traveled with malfunction indicator lamp (MIL) on
+
+// Fuel Tank Level Input
+float FUEL_TANK_LEVEL_INPUT;
+// Warm-ups since codes cleared
+float WARM_UPS_SINCE_CODES_CLEARED;
+// Distance traveled since codes cleared
+float DISTANCE_TRAVELED_SINCE_CODES_CLEARED;
+// Absolute Barometric Pressure
+float ABSOLUTE_BAROMETRIC_PRESSURE;
+// Catalyst Temperature: Bank 1, Sensor 1
+float CATALYST_TEMPERATURE_BANK1_SENSOR1;
+// Catalyst Temperature: Bank 1, Sensor 2
+float CATALYST_TEMPERATURE_BANK1_SENSOR2;
+// Control module voltage
+float CONTROL_MODULE_VOLTAGE;
+// Fuel–Air commanded equivalence ratio
+float FUEL_AIR_COMMANDED_EQUIV_RATIO;
+// Relative throttle position
+
+// Absolute throttle position B
+float ACCELERATOR_PEDAL_POSITION_F;
+// Accelerator pedal position D
+float ACCELERATOR_PEDAL_POSITION_D;
+// Accelerator pedal position E
+float ACCELERATOR_PEDAL_POSITION_E;
+// Commanded throttle actuator
+float COMMANDED_THROTTLE_ACTUATOR;
+// Time run with MIL on
+float TIME_RUN_WITH_MIL_ON;
+// Time since trouble codes cleared
+float TIME_SINCE_TROUBLE_CODES_CLEARED;
 
 
 
