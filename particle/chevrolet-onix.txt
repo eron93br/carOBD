@@ -1,0 +1,22 @@
+Commanded evaporative purge
+Fuel Tank Level Input
+Warm-ups since codes cleared
+Distance traveled since codes cleared
+Absolute Barometric Pressure
+Catalyst Temperature: Bank 1, Sensor 1
+PIDs supported [41 - 60]
+**************Printing PIDs 41-60 (HEXIDECIMAL)**************
+Monitor status this drive cycle
+Control module voltage
+Absolute load value
+Fuel Air commanded equivalence ratio
+Relative throttle position
+Ambient air temperature
+Absolute throttle position B
+Accelerator pedal position D
+Accelerator pedal position E
+Commanded throttle actuator
+Maximum value for Fuel–Air equivalence ratio, oxygen sensor voltage, oxygen sensor current, and intake manifold absolute pressure
+Fuel Type
+Ethanol fuel %
+**************Printing PIDs 61-80 (HEXIDECIMAL)**************
