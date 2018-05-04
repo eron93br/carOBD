@@ -1,6 +1,10 @@
 # carOBD
 
-Describe tutorials to create a OBD Readaer based on Raspberry Pi and other dev boards
+This respository describes the implementation details of Vehicle Telemetry data acquistion systems for my masther thesis.
+Currently I have the following folders:
+
+- Particle: describes the files/projects related to the Particle Electron OBD vehicle data acquisition system
+- 
 
 # Related projects
 
