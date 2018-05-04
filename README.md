@@ -16,6 +16,8 @@ Currently I have the following folders:
 
 # MSc References
 
+[Articles Bibtex reference](https://github.com/eron93br/carOBD/tree/master/article)
+
 [The Three Software
 Stacks Required for IoT
 Architectures](https://iot.eclipse.org/resources/white-papers/Eclipse%20IoT%20White%20Paper%20-%20The%20Three%20Software%20Stacks%20Required%20for%20IoT%20Architectures.pdf)
