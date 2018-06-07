@@ -1,4 +1,10 @@
-# this repository is to storage car logger databases
+Lista de logs coletados...
+===========
+| Nome do arquivo | Dia (obs) |
+| :---------------------: | :------:|
+| log07-06-18-A.csv | Casa->Live (BR) |
+| xxxx | yyyy |
+
 
 # References
 
