@@ -2,28 +2,32 @@
 
 PIDs read from car
 ===========
-| Semtech SX1276/77/78/79 | Arduino UNO |
+| Car parameter | Variable name |
 | :---------------------: | :------:|
-| Run time since engine start | 3.3V |
-| Engine RPM | GND |
-| Vehicle Speed | SCK |
-| Intake manifold absolute pressure | SCK |
-| Intake air temperature | MISO |
-| Throttle position | MOSI (13) |
-| Relative throttle position | 6 |
-| Absolute throttle position B | 5 |
-| Accelerator pedal position D | 2 |
-| Accelerator pedal position E | 3 |
-| Commanded throttle actuator | 4 |
-| Fuel–Air commanded equivalence ratio | 4 |
-| Fuel Tank Level Input | 4 |
-| Short term fuel trim—Bank 1 | 4 |
-| Long term fuel trim—Bank 1| 4 |
-| Timing advance | 12 |
-| Calculated engine load | GND |
-| Engine coolant temperature | GND |
-| Oxygen Sensor 1 A: Voltage B: Short term fuel trim | GND |
-| Oxygen Sensor 2 A: Voltage B: Short term fuel trim | GND |
+| Run time since engine start | ENGINE_RUN_TIME |
+| Engine RPM | ENGINE_RPM |
+| Vehicle Speed | VEHICLE_SPEED |
+| Throttle position | THROTTLE |
+| Calculated engine load | ENGINE_LOAD |
+| Engine coolant temperature | COOLANT_TEMPERATURE |
+| Long term fuel trim—Bank 1| LONG_TERM_FUEL_TRIM_BANK_1 |
+| Short term fuel trim—Bank 1 | SHORT_TERM_FUEL_TRIM_BANK_1 |
+| Intake manifold absolute pressure | INTAKE_MANIFOLD_PRESSURE |
+| Fuel Tank Level Input | FUEL_TANK_LEVEL_INPUT |
+| Absolute throttle position B | ABSOLUTE_THROTTLE_B |
+| Accelerator pedal position D | ACCELERATOR_PEDAL_POSITION_D |
+| Accelerator pedal position E | ACCELERATOR_PEDAL_POSITION_E |
+| Commanded throttle actuator |  COMMANDED_THROTTLE_ACTUATOR |
+| Fuel–Air commanded equivalence ratio |  FUEL_AIR_COMMANDED_EQUIV_RATIO |
+| Absolute Barometric Pressure | ABSOLUTE_BAROMETRIC_PRESSURE |
+| Relative throttle position | RELATIVE_THROTTLE_POSITION |
+| Commanded throttle actuator | COMMANDED_THROTTLE_ACTUATOR | 
+| Intake air temperature | INTAKE_AIR_TEMPERATURE |
+| Timing advance | TIMING_ADVANCE |
+
+
+
+
 
 # Serial console (Logger)
 
