@@ -2,7 +2,7 @@ Lista de logs coletados...
 ===========
 | Nome do arquivo | Dia (obs) |
 | :---------------------: | :------:|
-| log07-06-18-A.csv | Casa->Live (BR) |
+| log07-06-18-A.csv | Casa ---> LIVE (BR) |
 | xxxx | yyyy |
 
 
