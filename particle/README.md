@@ -21,7 +21,6 @@ PIDs read from car
 | Fuel–Air commanded equivalence ratio |  FUEL_AIR_COMMANDED_EQUIV_RATIO |
 | Absolute Barometric Pressure | ABSOLUTE_BAROMETRIC_PRESSURE |
 | Relative throttle position | RELATIVE_THROTTLE_POSITION |
-| Commanded throttle actuator | COMMANDED_THROTTLE_ACTUATOR | 
 | Intake air temperature | INTAKE_AIR_TEMPERATURE |
 | Timing advance | TIMING_ADVANCE |
 | Catalyst Temperature: Bank 1, Sensor 1 | CATALYST_TEMPERATURE_BANK1_SENSOR1 |
