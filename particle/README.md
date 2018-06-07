@@ -24,6 +24,9 @@ PIDs read from car
 | Commanded throttle actuator | COMMANDED_THROTTLE_ACTUATOR | 
 | Intake air temperature | INTAKE_AIR_TEMPERATURE |
 | Timing advance | TIMING_ADVANCE |
+| Catalyst Temperature: Bank 1, Sensor 1 | CATALYST_TEMPERATURE_BANK1_SENSOR1 |
+| Catalyst Temperature: Bank 1, Sensor 2 | CATALYST_TEMPERATURE_BANK1_SENSOR2 |
+
 
 
 
