@@ -27,7 +27,6 @@ PIDs read from car
 | Catalyst Temperature: Bank 1, Sensor 1 | CATALYST_TEMPERATURE_BANK1_SENSOR1 |
 | Catalyst Temperature: Bank 1, Sensor 2 | CATALYST_TEMPERATURE_BANK1_SENSOR2 |
 | Control module voltage | CONTROL_MODULE_VOLTAGE |
-| Fuel Air commanded equivalence ratio | FUEL_AIR_COMMANDED_EQUIV_RATIO |
 | Commanded evaporative purge | COMMANDED_EVAPORATIVE_PURGE | 
 | Time run with MIL on | TIME_RUN_WITH_MIL_ON |
 | Time since trouble codes cleared | TIME_SINCE_TROUBLE_CODES_CLEARED |
