@@ -26,6 +26,13 @@ PIDs read from car
 | Timing advance | TIMING_ADVANCE |
 | Catalyst Temperature: Bank 1, Sensor 1 | CATALYST_TEMPERATURE_BANK1_SENSOR1 |
 | Catalyst Temperature: Bank 1, Sensor 2 | CATALYST_TEMPERATURE_BANK1_SENSOR2 |
+| Control module voltage | CONTROL_MODULE_VOLTAGE |
+| Fuel Air commanded equivalence ratio | FUEL_AIR_COMMANDED_EQUIV_RATIO |
+| Commanded evaporative purge | COMMANDED_EVAPORATIVE_PURGE | 
+| Time run with MIL on | TIME_RUN_WITH_MIL_ON |
+| Time since trouble codes cleared | TIME_SINCE_TROUBLE_CODES_CLEARED |
+| Distance traveled with malfunction indicator lamp (MIL) on | DISTANCE_TRAVELED_WITH_MIL_ON | 
+| Warm-ups since codes cleared | WARM_UPS_SINCE_CODES_CLEARED | 
 
 
 
