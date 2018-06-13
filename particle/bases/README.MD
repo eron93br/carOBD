@@ -4,6 +4,9 @@ Lista de logs coletados...
 | :---------------------: | :------:| :---------------------: | :------:| 
 | log07-06-18-A.csv | 07/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
 | log07-06-18-B.csv | 07/6 | Trajeto LIVE-CASA, Forcei aceleracoes bruscas |  NOITE/LIMPA |
+| log08-06-18-A.csv | 08/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
+| log08-06-18-B.csv | 08/6 | Trajeto LIVE-CASA|  NOITE/LIMPA |
+| log13-06-18-A.csv | 13/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
 
 
 # References
