@@ -1,5 +1,6 @@
 # Vehicle parameters log
-===========
+
+
 | Nome do arquivo | Dia | Detalhamento do trajeto |  Tempo | 
 | :---------------------: | :------:| :---------------------: | :------:| 
 | log07-06-18-A.csv | 07/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
@@ -7,7 +8,7 @@
 | log08-06-18-A.csv | 08/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
 | log08-06-18-B.csv | 08/6 | Trajeto LIVE-CASA|  NOITE/LIMPA |
 | log13-06-18-A.csv | 13/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
-| logXX-06-18-A.csv | x/6 | tbd..  |  tbd.. | 
+
 
 # References
 
