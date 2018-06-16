@@ -1,3 +1,5 @@
+// VERSAO 16/06/2018 //
+
 // This #include statement was automatically added by the Particle IDE.
 //#include <sd-card-library-photon-compat.h>
 
@@ -208,7 +210,7 @@ const auto OBD_PID_SUPPORTED_PIDS_01_20                  = 0x00;
 const auto OBD_PID_MIL_STATUS                            = 0x01;
 const auto OBD_PID_FUEL_SYSTEM_STATUS                    = 0x03;
 const auto OBD_PID_ENGINE_LOAD                           = 0x04;
-const auto OBD_PID_COOLANT_TEMPERATURE                   = 0x05;
+const auto OBD_PID_COOLANT_TEMPERATURE                   = 0x05;   // RETONARNDO TUDO ZERO... antigo é 0x05
 const auto OBD_PID_SHORT_TERM_FUEL_TRIM_BANK_1           = 0x06;
 const auto OBD_PID_LONG_TERM_FUEL_TRIM_BANK_1            = 0x07;
 const auto OBD_PID_SHORT_TERM_FUEL_TRIM_BANK_2           = 0x08;
@@ -472,9 +474,9 @@ void sendObdRequest()
 
 	CANMessage message;
 	message.id = OBD_CAN_BROADCAST_ID;
-	message.len = 8; // just always use 8
-	message.data[0] = 0x02; // 0 = single-frame format, 2  = num data bytes
-	message.data[1] = OBD_MODE_CURRENT_DATA; // OBD MODE
+	message.len = 8;                           // just always use 8
+	message.data[0] = 0x02;                    // 0 = single-frame format, 2  = num data bytes
+	message.data[1] = OBD_MODE_CURRENT_DATA;   // OBD MODE
 	message.data[2] = pidsToRequest[pidIndex]; // OBD PID
 
 	carloop.can().transmit(message);
@@ -552,19 +554,19 @@ void printValues()
     /////////////////////////////
     //PRINT VALUES FOR DEBUGING//
      ////////////////////////////
-     Serial.print(ENGINE_LOAD);                  Serial.print(" , "); 
-     Serial.print(COOLANT_TEMPERATURE);          Serial.print(" , ");
-     Serial.print(LONG_TERM_FUEL_TRIM_BANK_1);   Serial.print(" , ");
-     Serial.print(SHORT_TERM_FUEL_TRIM_BANK_1);  Serial.print(" , "); 
-     Serial.print(INTAKE_MANIFOLD_PRESSURE);     Serial.print(" , ");
-     Serial.print(ENGINE_RPM);                   Serial.print(" , "); 
-     Serial.print(VEHICLE_SPEED);                Serial.print(" , ");
+     /*Serial.print(ENGINE_LOAD);                Serial.print(" , ");         ok 
+     Serial.print(COOLANT_TEMPERATURE);          Serial.print(" , ");         ok 
+     Serial.print(LONG_TERM_FUEL_TRIM_BANK_1);   Serial.print(" , ");         ok 
+     Serial.print(SHORT_TERM_FUEL_TRIM_BANK_1);  Serial.print(" , ");         ok 
+     Serial.print(INTAKE_MANIFOLD_PRESSURE);     Serial.print(" , ");         ok
+     Serial.print(ENGINE_RPM);                   Serial.print(" , ");         ok   
+     Serial.print(VEHICLE_SPEED);                Serial.print(" , ");         ok
      Serial.print(TIMING_ADVANCE);               Serial.print(" , "); 
      Serial.print(INTAKE_AIR_TEMPERATURE);       Serial.print(" , ");
-     Serial.print(THROTTLE);                     Serial.print(" , "); 
+     Serial.print(THROTTLE);                     Serial.print(" , ");         ok 
      Serial.print(OBD_STANDARDS);                Serial.print(" , ");
-     Serial.print(ENGINE_RUN_TIME);              Serial.print(" , ");
-     Serial.print(FUEL_TANK_LEVEL_INPUT);        Serial.print(" , ");
+     Serial.print(ENGINE_RUN_TIME);              Serial.print(" , ");         ok
+     Serial.print(FUEL_TANK_LEVEL_INPUT);        Serial.print(" , ");         ok
      Serial.print(WARM_UPS_SINCE_CODES_CLEARED); Serial.print(" , "); 
      Serial.print(DISTANCE_TRAVELED_SINCE_CODES_CLEARED); Serial.print(" , "); 
      Serial.print(ABSOLUTE_BAROMETRIC_PRESSURE); Serial.print(" , ");  
@@ -572,13 +574,15 @@ void printValues()
      Serial.print(CATALYST_TEMPERATURE_BANK1_SENSOR2); Serial.print(" , ");
      Serial.print(CONTROL_MODULE_VOLTAGE); Serial.print(" , ");  
      Serial.print(FUEL_AIR_COMMANDED_EQUIV_RATIO); Serial.print(" , ");
-     Serial.print(ACCELERATOR_PEDAL_POSITION_F); Serial.print(" , "); 
-     Serial.print(ACCELERATOR_PEDAL_POSITION_D); Serial.print(" , "); 
-     Serial.print(ACCELERATOR_PEDAL_POSITION_E); Serial.print(" , ");
-     Serial.print(COMMANDED_THROTTLE_ACTUATOR);  Serial.print(" , ");
+     Serial.print(ACCELERATOR_PEDAL_POSITION_F); Serial.print(" , ");      ok
+     Serial.print(ACCELERATOR_PEDAL_POSITION_D); Serial.print(" , ");      ok
+     Serial.print(ACCELERATOR_PEDAL_POSITION_E); Serial.print(" , ");      ok 
+     Serial.print(COMMANDED_THROTTLE_ACTUATOR);  Serial.print(" , ");      ok 
      Serial.print(TIME_RUN_WITH_MIL_ON);         Serial.print(" , ");
-     Serial.println(TIME_SINCE_TROUBLE_CODES_CLEARED); 
-     
+     Serial.println(TIME_SINCE_TROUBLE_CODES_CLEARED); */
+     char texto[380];
+     sprintf(texto, "%f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f,",  ENGINE_RUN_TIME, ENGINE_RPM, VEHICLE_SPEED, THROTTLE, ENGINE_LOAD, COOLANT_TEMPERATURE, LONG_TERM_FUEL_TRIM_BANK_1, SHORT_TERM_FUEL_TRIM_BANK_1, INTAKE_MANIFOLD_PRESSURE, FUEL_TANK_LEVEL_INPUT, ABSOLUTE_THROTTLE_B, ACCELERATOR_PEDAL_POSITION_D, ACCELERATOR_PEDAL_POSITION_E, COMMANDED_THROTTLE_ACTUATOR, FUEL_AIR_COMMANDED_EQUIV_RATIO, ABSOLUTE_BAROMETRIC_PRESSURE, RELATIVE_THROTTLE_POSITION, INTAKE_AIR_TEMPERATURE, TIMING_ADVANCE, CATALYST_TEMPERATURE_BANK1_SENSOR1, CATALYST_TEMPERATURE_BANK1_SENSOR2, CONTROL_MODULE_VOLTAGE, COMMANDED_EVAPORATIVE_PURGE, TIME_RUN_WITH_MIL_ON, TIME_SINCE_TROUBLE_CODES_CLEARED, DISTANCE_TRAVELED_WITH_MIL_ON, WARM_UPS_SINCE_CODES_CLEARED);
+     Serial.println(texto);
                     
  // Engine coolant temperature
 // Short term fuel trim—Bank 1
@@ -714,6 +718,10 @@ void blynkValues()
 //ALMOST EVERY MODE 1 OBDII PID MATH//
 //////////////////////////////////////
 
+// auxiliar table for decode OBD-II PIDs packet   
+// |   A   |   B   |   C   |    D  |
+// | data3 | data4 | data5 | data6 |
+
 void math() 
 {
 
@@ -749,7 +757,8 @@ void math()
     
     if (data2 == 5) {
         float coolantTemp;
-        coolantTemp = (data3)-40;
+        coolantTemp = (data3);  
+        // coolantTemp = (data3)-40;
         ENGINE_COOLANT_TEMPERATURE = coolantTemp;
     }
 //}
