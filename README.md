@@ -3,8 +3,8 @@
 This respository describes the implementation details of Vehicle Telemetry data acquistion systems for my masther thesis.
 Currently I have the following folders:
 
-- Particle: describes the files/projects related to the Particle Electron OBD vehicle data acquisition system
-- 
+- **Particle**: describes the files/projects related to the Particle Electron OBD vehicle data acquisition system
+- **josephvaner**: describes an implementation based on OBD bluetooth dongle and Raspberry Pi Zero
 
 # Related projects
 
