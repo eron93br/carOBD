@@ -1,5 +1,6 @@
 # Vehicle parameters log
 
+Log counter == **6**
 
 | Nome do arquivo | Dia | Detalhamento do trajeto |  Tempo | 
 | :---------------------: | :------:| :---------------------: | :------:| 
