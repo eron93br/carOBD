@@ -8,6 +8,13 @@
 | log08-06-18-A.csv | 08/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
 | log08-06-18-B.csv | 08/6 | Trajeto LIVE-CASA|  NOITE/LIMPA |
 | log13-06-18-A.csv | 13/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
+| log13-06-18-B.csv | 13/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
+| log15-06-18-A.csv | 15/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
+| log15-06-18-B.csv | 15/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
+| log18-06-18-A.csv | 18/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
+| log18-06-18-B.csv | 18/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
+| log19-06-18-A.csv | 19/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL(11h) | 
+| log19-06-18-B.csv | 19/6 | Trajeto CASA-LIVE, normal  |  NOITE/CHUVA | 
 
 
 # References
