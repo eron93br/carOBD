@@ -2,6 +2,9 @@
 
 Log counter == **6**
 
+[Link para database (Dropbox)](https://www.dropbox.com/sh/7buuks15t5kf1by/AACThzsDTpDuUCgtnqzMBrooa?dl=0)
+
+
 | Nome do arquivo | Dia | Detalhamento do trajeto |  Tempo | 
 | :---------------------: | :------:| :---------------------: | :------:| 
 | log07-06-18-A.csv | 07/6 | Trajeto CASA-LIVE, normal  |  DIA/SOL | 
