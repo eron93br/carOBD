@@ -6,6 +6,12 @@ Currently I have the following folders:
 - **Particle**: describes the files/projects related to the Particle Electron OBD vehicle data acquisition system
 - **josephvaner**: describes an implementation based on OBD bluetooth dongle and Raspberry Pi Zero
 
+# Firmware used on the Carloop implementation 
+
+[Discover PIDs firmware](https://github.com/eron93br/carOBD/blob/master/firmware/discover-pids.ino)
+
+[OBD-II logger firmware](https://github.com/eron93br/carOBD/blob/master/firmware/obd-logger.ino)
+
 # Related projects
 
 [Pi Bluetooth OBD](https://github.com/eron93br/pi-bluetooth-obd)
@@ -16,7 +22,7 @@ Currently I have the following folders:
 
 # MSc References
 
-[Articles Bibtex reference](https://github.com/eron93br/carOBD/tree/master/article)
+[Jabref file with references](https://github.com/eron93br/carOBD/blob/master/jabref/mapeamento.bib)
 
 [The Three Software
 Stacks Required for IoT
