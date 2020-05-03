@@ -1,6 +1,6 @@
 ## carOBD dataset
 
-This respository describes the OBDII dataset adquired during my master thesis. The dataset is composed by 28 different vehicle parameters (PIDs). The data acquisition system is composed by an embedded system connected to the On-Board Diagnostic II (OBD-II)interface of a Toyota Etios (year 2014, Engine Displacement1496 CC). The device used was the Carloop, an open-source development kit based on a microcontroller with cellular connectivity and OBD-II interface connector. The systemcaptures all vehicular data at a rate of one sample per second (1 Hz).
+This respository describes the OBDII dataset adquired during my master thesis. The dataset is composed by 27 different vehicle parameters (PIDs). The data acquisition system is composed by an embedded system connected to the On-Board Diagnostic II (OBD-II)interface of a Toyota Etios (year 2014, Engine Displacement1496 CC). The device used was the Carloop, an open-source development kit based on a microcontroller with cellular connectivity and OBD-II interface connector. The systemcaptures all vehicular data at a rate of one sample per second (1 Hz).
 
 - Vehicle parameters
 
