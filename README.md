@@ -10,7 +10,15 @@ The following parameters are available in this dataset:
 
 - Vehicle modes
 
-All data are described on two types of .CSV file: `driveX.csv` or  `idleX.csv`. The drive files refer to the car in the motion mode (moving on roads), differently, IDLE mode refers to the vehicle stopped in parking mode, but with the engine on. 
+The drive files refer to the car in the motion mode (moving on roads), differently, IDLE mode refers to the vehicle stopped in parking mode, but with the engine on. The files in the dataset correspond to specific conditions of the vehicle:
+
+- `idleX.csv` refers to the vehicle in the IDLE mode
+- `driveX.csv` refers to the vehicle in motion mode in high speed roads
+- `liveX.csv` refers to the vehicle in a specific traject (work --> home)
+- `ufpeX.csv` refers to the vehicle in motion mode inside an university campus (low speed)
+- `longX.csv` refers to long trips with the vehicle in motion mode. 
+
+
 
 # LICENSE
 
