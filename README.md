@@ -6,8 +6,37 @@ This respository describes the OBDII dataset adquired during my master thesis. T
 
 The following parameters are available in this dataset:
 
-`ENGINE_RUN_TINE (),ENGINE_RPM (),VEHICLE_SPEED (),THROTTLE (),ENGINE_LOAD (),COOLANT_TEMPERATURE (),LONG_TERM_FUEL_TRIM_BANK_1 (),SHORT_TERM_FUEL_TRIM_BANK_1 (),INTAKE_MANIFOLD_PRESSURE (),FUEL_TANK (),ABSOLUTE_THROTTLE_B (),PEDAL_D (),PEDAL_E (),COMMANDED_THROTTLE_ACTUATOR (),FUEL_AIR_COMMANDED_EQUIV_RATIO (),ABSOLUTE_BAROMETRIC_PRESSURE (),RELATIVE_THROTTLE_POSITION (),INTAKE_AIR_TEMP (),TIMING_ADVANCE (),CATALYST_TEMPERATURE_BANK1_SENSOR1 (),CATALYST_TEMPERATURE_BANK1_SENSOR2 (),CONTROL_MODULE_VOLTAGE (),COMMANDED_EVAPORATIVE_PURGE (),TIME_RUN_WITH_MIL_ON (),TIME_SINCE_TROUBLE_CODES_CLEARED (),DISTANCE_TRAVELED_WITH_MIL_ON (),WARM_UPS_SINCE_CODES_CLEARED ()`
-
+PIDs read from car
+===========
+| Car parameter | Variable name |
+| :---------------------: | :------:|
+| Run time since engine start | ENGINE_RUN_TIME |
+| Engine RPM | ENGINE_RPM |
+| Vehicle Speed | VEHICLE_SPEED |
+| Throttle position | THROTTLE |
+| Calculated engine load | ENGINE_LOAD |
+| Engine coolant temperature | COOLANT_TEMPERATURE |
+| Long term fuel trim—Bank 1| LONG_TERM_FUEL_TRIM_BANK_1 |
+| Short term fuel trim—Bank 1 | SHORT_TERM_FUEL_TRIM_BANK_1 |
+| Intake manifold absolute pressure | INTAKE_MANIFOLD_PRESSURE |
+| Fuel Tank Level Input | FUEL_TANK_LEVEL_INPUT |
+| Absolute throttle position B | ABSOLUTE_THROTTLE_B |
+| Accelerator pedal position D | ACCELERATOR_PEDAL_POSITION_D |
+| Accelerator pedal position E | ACCELERATOR_PEDAL_POSITION_E |
+| Commanded throttle actuator |  COMMANDED_THROTTLE_ACTUATOR |
+| Fuel–Air commanded equivalence ratio |  FUEL_AIR_COMMANDED_EQUIV_RATIO |
+| Absolute Barometric Pressure | ABSOLUTE_BAROMETRIC_PRESSURE |
+| Relative throttle position | RELATIVE_THROTTLE_POSITION |
+| Intake air temperature | INTAKE_AIR_TEMPERATURE |
+| Timing advance | TIMING_ADVANCE |
+| Catalyst Temperature: Bank 1, Sensor 1 | CATALYST_TEMPERATURE_BANK1_SENSOR1 |
+| Catalyst Temperature: Bank 1, Sensor 2 | CATALYST_TEMPERATURE_BANK1_SENSOR2 |
+| Control module voltage | CONTROL_MODULE_VOLTAGE |
+| Commanded evaporative purge | COMMANDED_EVAPORATIVE_PURGE | 
+| Time run with MIL on | TIME_RUN_WITH_MIL_ON |
+| Time since trouble codes cleared | TIME_SINCE_TROUBLE_CODES_CLEARED |
+| Distance traveled with malfunction indicator lamp (MIL) on | DISTANCE_TRAVELED_WITH_MIL_ON | 
+| Warm-ups since codes cleared | WARM_UPS_SINCE_CODES_CLEARED | 
 - Vehicle modes
 
 The drive files refer to the car in the motion mode (moving on roads), differently, IDLE mode refers to the vehicle stopped in parking mode, but with the engine on. The files in the dataset correspond to specific conditions of the vehicle:
