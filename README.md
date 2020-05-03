@@ -1,4 +1,4 @@
-## carOBD dataset
+# carOBD dataset
 
 This respository describes the OBDII dataset adquired during my master thesis. The dataset is composed by 27 different vehicle parameters (PIDs). The data acquisition system is composed by an embedded system connected to the On-Board Diagnostic II (OBD-II)interface of a Toyota Etios (year 2014, Engine Displacement1496 CC). The device used was the Carloop, an open-source development kit based on a microcontroller with cellular connectivity and OBD-II interface connector. The systemcaptures all vehicular data at a rate of one sample per second (1 Hz).
 
@@ -24,13 +24,13 @@ The drive files refer to the car in the motion mode (moving on roads), different
 
 This is a open-source repository, free to everyone. *If you use PLEASE CITE MY ARTCILE AS REFERENCE OF THE DATABASE*. The work of my master thesis (`Detecting Anomalies in the Engine Coolant Sensor Using One-Class Classifiers`) are available ate [IEEE](https://ieeexplore.ieee.org/abstract/document/8891367)
 
-# Firmware used on the Carloop implementation 
+## Firmware used on the Carloop implementation 
 
 [Discover PIDs firmware](https://github.com/eron93br/carOBD/blob/master/firmware/discover-pids.ino)
 
 [OBD-II logger firmware](https://github.com/eron93br/carOBD/blob/master/firmware/obd-logger.ino)
 
-# Related projects
+## Related projects
 
 - [Pi Bluetooth OBD](https://github.com/eron93br/pi-bluetooth-obd)
 
@@ -41,7 +41,7 @@ This is a open-source repository, free to everyone. *If you use PLEASE CITE MY A
 - **Particle**: describes the files/projects related to the Particle Electron OBD vehicle data acquisition system
 - **josephvaner**: describes an implementation based on OBD bluetooth dongle and Raspberry Pi Zero
 
-# Master thesis References 
+## Master thesis References 
 
 All the references are incuded in a JabRef file (`bib`) that can be imported and cited. 
 
